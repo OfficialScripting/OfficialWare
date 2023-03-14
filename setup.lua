@@ -1,7 +1,8 @@
---opensource since its easy to desobfuscate, skid local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+--opensource since its easy to desobfuscate, skid 
 
-
-  local Window = Rayfield:CreateWindow({
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+ 
+ local Window = Rayfield:CreateWindow({
    Name = "OfficialWare V1",
    LoadingTitle = "U dont need to pay for quality",
    LoadingSubtitle = "by Official",
